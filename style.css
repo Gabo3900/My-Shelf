@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Verdana', 'Arial';
+  background-image: url(images/livroteste.png);
+  background-repeat: no-repeat;
+  background-position-y: 90%;
+}
+
+/*---------------------------------------------------------------------/
+
+
+
+/---------------------------HEADER------------------------------------*/
+
+header{
+	background-color: #36013F;
+  padding-top: 1em;
+  font-size: 20px;
+}
+
+
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+	align-items: center;
+}
+
+nav.menuinicio ul {
+  margin: 0 2em;
+  margin-bottom: 3em;
+  text-align: left;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+nav.menu1 ol {
+  text-align: right;
+  margin-right: 5em;
+  padding: 0.5em;
+}
+
+nav.menu1 ol li {
+	display: inline;
+  padding: 0.5em;
+}
+
+a.button {
+	border-radius: 5px;
+	background-color: #6B66FC;
+  box-shadow: 
+    1px 1px #5B55AC,
+    2px 2px #4B449C,
+    3px 3px #3B338C,
+    4px 4px #2B227C,
+    9px 9px 25px rgba(0, 0, 0, .7);
+	padding: 0.5em;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+a.button:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: 
+    1px 1px #5B55AC,
+    2px 2px #4B449C,
+    3px 3px 6px rgba(0, 0, 0, .7);
+}
+
+nav.menu2 ul {
+  background-color: #FCED66;
+}
+
+nav.menu2 ul li a {
+	float: left;
+	padding: 2em;
+	font-size: 15px;
+  text-decoration: none;
+  color: #36013F;
+}
+
+nav.menu2 ul li a:hover {
+  background-color: rgb(131, 118, 0);
+}
+
+header form input {
+  padding: 1em;
+  border-radius: 50px;
+  border: none;
+  width: 20em;
+  outline: none;
+}
+
+header form button {
+  padding: 1em;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*--------------------------  corpo  -------------------------------------------*/
+
+h1{
+	margin: 2em;
+	font-weight: normal;
+	font-size: 50px;
+	color: #36013F;
+
+}
+
+h2{
+	font-weight: normal;
+	margin-bottom: 1em;
+	margin-top: -3em;
+	color: #36013F;
+
+}
+
+/* --------------   LIVROS E TEXTO INICIAL ------------------ */
+
+main section {
+  text-align: center;
+}
+
+main .livrosi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main .livrosi figure {
+  float: left;
+	margin: 5em;
+  font-size: 15px;
+  text-align: center;
+}
+
+main .livrosi figcaption .title {
+  font-size: 30px;
+}
+
+main .livrosi img {
+	width: 183px;
+	height: 275px;
+  cursor: grab;
+  box-shadow: 0px 9px 25px black;
+}
+
+div.cit{
+  padding: 3em 0.5em;
+  margin: 5em auto;
+  width:15em;
+  background-color: #FCED66;
+  font-size: 30px;
+  border-radius: 25px;
+}
+div.cit p{
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+
+
+
+/*--------------------------footer-------------------------------------------*/
+
+footer {
+	background-color: #36013F;
+  padding: 100px;
+  margin-top: 7em;
+}
+
+footer nav.menufooter {
+  float: left;
+ 
+}
+
+footer nav ul li {
+  margin: 1em;
+}
+
+.redessociais {
+	text-align: right;
+  
+  
+ 
+}
+.redessociais li{
+  display: inline;
+}
+
+.redessociais img {
+	height: 30px;
+	width: 30px;
+	margin: 1em;
+   
+}
+.redessociais h1{
+  font-size: 1em;
+  color: white;
+  
+}
+
+/*
+
+form{
+	padding: 2em;
+	font-family: Roboto, sans-serif; 
+	font-size: 16px;
+	text-align: right;
+}
+
+input{
+	margin-bottom: 10px;
+	width: 474px;
+	height: 20px;
+	font-size: 17px;
+}
+
+input.submit{
+ 	width: 70px;
+ 	height: 20px;
+ 	border-radius: 15px;
+ 	border-style: none;
+ 	font-size: 12px;
+ 	background-color: #B342FF;
+ 	margin-top: 10px;
+ }
+
+textarea{
+	width: 474px;
+	height: 274px;
+}
+
+textarea.mensagem{
+	font-family: Roboto, sans-serif;
+	font-size: 17px;
+}
+*/
