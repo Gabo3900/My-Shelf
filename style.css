@@ -94,10 +94,6 @@ nav.menu2 ul li a {
   color: #36013F;
 }
 
-nav.menu2 ul li a:hover {
-  background-color: rgb(131, 118, 0);
-}
-
 header form input {
   padding: 1em;
   border-radius: 50px;
