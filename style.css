@@ -159,8 +159,12 @@ main .livrosi figcaption .title {
 main .livrosi img {
 	width: 183px;
 	height: 275px;
-  cursor: grab;
-  box-shadow: 0px 9px 25px black;
+  padding: 1em;
+  transition: all .5s ease;
+}
+
+main .livrosi img:hover {
+  padding: 0;
 }
 
 div.cit{
