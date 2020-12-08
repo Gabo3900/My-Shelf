@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Verdana', 'Arial';
+	font-family: 'Roboto', 'Verdana', 'Arial';
   background-image: url(images/livroteste.png);
   background-repeat: no-repeat;
   background-position-y: 90%;
@@ -20,8 +20,13 @@ body {
 header, footer {
 	background-color: #631271;
   background-image: url(images/background.png);
-  padding-top: 1em;
   font-size: 20px;
+  font-weight: bold;
+}
+
+header .icon {
+  display: none;
+  font-size: 3em;
 }
 
 nav ul .botao a:hover{
@@ -44,10 +49,9 @@ header nav ul {
 }
 
 nav.menuinicio ul {
-  margin: 0 2em;
-  margin-bottom: 3em;
+  padding: 5em 2em;
   text-align: left;
-  justify-content: space-around;
+  justify-content: space-between;
 	align-items: center;
 }
 
@@ -62,9 +66,9 @@ nav li a {
 }
 
 nav.menu1 {
-  text-align: right;
-  margin-right: 4em;
-  padding: 1em;
+  position: absolute;
+  right: 10%;
+  top: 17px;
 }
 
 nav.menu1 ol li {
@@ -81,6 +85,11 @@ a.button {
 nav.menu2 ul {
   background-color: #FCED66;
   justify-content: center;
+  text-align: center;
+}
+
+nav.menu2 ul li {
+  width: 14%;
 }
 
 nav.menu2 ul li a {
@@ -88,6 +97,7 @@ nav.menu2 ul li a {
 	font-size: 15px;
   text-decoration: none;
   color: #36013F;
+  width: 100%;
 }
 
 header form input {
@@ -107,72 +117,26 @@ header form button {
   cursor: pointer;
 }
 
-/*--------------------------  corpo  -------------------------------------------*/
+@media screen and (max-width: 900px) {
+  nav.menuinicio ul {
+    padding: 1em 0.5em;
+  }
+  nav.menuinicio ul li.botao {display: none;}
+  nav.menuinicio ul li.botao + li {display: none;}
+  .menuinicio a.icon {
+    display: inline;
+  }
 
-h1{
-	margin: 2em;
-	font-weight: normal;
-	font-size: 50px;
-	color: #36013F;
+  nav.menu1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
 
+  nav.menu2 {
+    display: none;
+  }
 }
-
-h2{
-	font-weight: normal;
-	margin-bottom: 1em;
-	margin-top: -3em;
-	color: #36013F;
-
-}
-
-/* --------------   LIVROS E TEXTO INICIAL ------------------ */
-
-main section {
-  text-align: center;
-}
-
-main .livrosi {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-main .livrosi figure {
-  float: left;
-	margin: 5em;
-  font-size: 15px;
-  text-align: center;
-}
-
-main .livrosi figcaption .title {
-  font-size: 30px;
-}
-
-main .livrosi img {
-	width: 183px;
-	height: 275px;
-  padding: 1em;
-  transition: all .5s ease;
-}
-
-main .livrosi img:hover {
-  padding: 0;
-}
-
-div.cit{
-  padding: 3em 0.5em;
-  margin: 5em auto;
-  width:15em;
-  background-color: #FCED66;
-  font-size: 30px;
-  border-radius: 25px;
-}
-div.cit p{
-  font-size: 1em;
-  color: black;
-  text-align: center;
-}
-
 
 
 /*--------------------------footer-------------------------------------------*/
@@ -187,13 +151,14 @@ footer nav {
   padding: 50px;
 }
 
-footer nav ul li {
+footer nav.menufooter li {
   margin: 1em;
 }
 
 .redessociais li{
   display: inline;
-  font-size: 2em;
+  font-size: 3em;
+  margin: 0.1em;
 }
 
 .redessociais h1{
