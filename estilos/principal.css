@@ -18,7 +18,7 @@ body {
 /---------------------------HEADER------------------------------------*/
 
 header, footer {
-	background-color: #631271;
+	background-color:#631271;
   background-image: url(images/background.png);
   font-size: 20px;
   font-weight: bold;
@@ -30,19 +30,15 @@ header .icon {
 }
 
 nav ul .botao a:hover{
-  background-color: #FCED66;
+  background-color:#F0D530;
   color: black;
   transition: 0.3s;
 }
-.menu2 ul li a:hover{
+.menu2 ul li a:hover, a.button:hover {
   background-color:#6B66FC;
   color: white;
 }
 
-.menu1 ol .button:hover{
-  background-color:#FCED66;
-  color: black;
-}
 
 header nav ul {
   display: flex;
@@ -78,25 +74,26 @@ nav.menu1 ol li {
 
 a.button {
 	border-radius: 5px;
-	background-color: #6B66FC;
+	background-color:#F0D530;
 	padding: 0.5em;
+  color:black;
 }
 
 nav.menu2 ul {
-  background-color: #FCED66;
+  background-color:#F0D530;
   justify-content: center;
   text-align: center;
 }
 
 nav.menu2 ul li {
-  width: 14%;
+  width: 14.28%;
 }
 
 nav.menu2 ul li a {
 	padding: 2em;
 	font-size: 15px;
   text-decoration: none;
-  color: #36013F;
+  color:black;
   width: 100%;
 }
 

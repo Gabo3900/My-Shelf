@@ -1,7 +1,7 @@
 fieldset {
   margin: 12em auto;
   width: 389px;
-  background-color: #36013F;
+  background-color: #631271;
   text-align: center;
   border: none;
   border-radius: 25px;
@@ -35,7 +35,7 @@ fieldset div {
 fieldset a {
   font-size: 20px;
   text-decoration: none;
-  color: #6B66FC;
+  color:#6B66FC;
   display: block;
   margin-bottom: 2em;
 }
@@ -49,5 +49,19 @@ input[type=submit] {
 }
 
 
-/* ------------------------ ESTANTES CSS ----------------------------------- */
 
+/* ------------------------ ESTANTES.HTML----------------------------------- */
+
+.estantes{
+  background-image: url(images/estantes.png);
+  width: 861px;
+  height: 262px;
+  margin: 70px 200px 150px 200px;
+}
+
+
+/* -------------------------ESTANTE.HTML CSS----------------------------- */
+
+.estantelivros{
+  background-image: url(images/estante.png); 
+}

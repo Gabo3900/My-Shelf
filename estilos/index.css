@@ -3,14 +3,14 @@
 main h1{
 	margin: 2em;
 	font-size: 50px;
-	color: #36013F;
+	color:#631271;
 
 }
 
 main h2{
 	margin-bottom: 1em;
 	margin-top: -3em;
-	color: #36013F;
+	color: #631271;
 
 }
 
@@ -51,7 +51,7 @@ div.cit{
   padding: 3em 0.5em;
   margin: 5em auto;
   width:15em;
-  background-color: #FCED66;
+  background-color: #F0D530;
   font-size: 30px;
   border-radius: 25px;
 }
