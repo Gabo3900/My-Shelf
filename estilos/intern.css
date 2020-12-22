@@ -52,11 +52,53 @@ input[type=submit] {
 
 /* ------------------------ ESTANTES.HTML----------------------------------- */
 
-.estantes{
-  background-image: url(images/estantes.png);
-  width: 861px;
-  height: 262px;
-  margin: 70px 200px 150px 200px;
+main {
+  width: 50em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.estantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(images/prateleira.png);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position-y: -110px;
+  border-radius: 40px;
+  padding: 0 8em 2em;
+  margin: -0.5em 0 -2em;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  margin: 120px 0;
+}
+
+section .title {
+  position: relative;
+  background-color: #F0D530;
+  border-radius: 50px;
+  padding: 0.5em;
+  width: 30%;
+  margin: 0 auto;
+}
+
+section img.denuncia {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section .estantes img {
+  padding: 2em 0 3.6em;
+  max-width: 20%;
+}
+
+section a {
+  text-decoration: none;
 }
 
 
