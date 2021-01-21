@@ -18,7 +18,8 @@ O Myshelf é um site criado para o Desenvolvimento de Projeto Integrador do curs
 
 ## Desenvolvido por:
 - **Caio Vinícius de Azevedo**: [@vinciuscaiohash](https://github.com/vinciuscaiohash)
-- **Gabriel dos Santos Moura**: [@Gabo3900](https://github.com/Gabo3900)
+- **Gabriel Moura**: [@Gabo3900](https://github.com/Gabo3900)
 - **Camilly Meireles**: [@Camily-Meireles](https://github.com/Camily-Meireles)
 - **Giovana Costa**
 - **Laura Louise**
+- **Juliano**
