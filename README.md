@@ -21,5 +21,5 @@ O Myshelf é um site criado para o Desenvolvimento de Projeto Integrador do curs
 - **Gabriel Moura**: [@Gabo3900](https://github.com/Gabo3900)
 - **Camilly Meireles**: [@Camily-Meireles](https://github.com/Camily-Meireles)
 - **Giovana Costa**
-- **Laura Louise**
+- **Laura Louise**: [@llouise338](https://github.com/llouise338)
 - **Juliano**
